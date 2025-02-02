@@ -1,0 +1,18 @@
+:root {
+  --azul-escuro: #021526;
+  --color-brancoTransp: rgba(252, 252, 252, 0.473);
+  --color-branco: aliceblue;
+  --color-redClaro: #a32a42;
+  --color-azulMescla: #789dbc;
+  --color-cinzaDife: #5c7285;
+  --color-roxoFusco: #574964;
+  --color-lilas: #8174a0;
+  --color-azulVivo: #000b58;
+  --color-verdeClaro: #9feeb9;
+  --color-roxoEscuro: #2e073f;
+  --color-roxoVivo: #7a1cac;
+  --color-roxoClaro: #610c9f;
+  --color-cinzaFusco: #242424;
+  --color-verde: #2bcc63;
+  --color-verdeEscuro: #03200d;
+}

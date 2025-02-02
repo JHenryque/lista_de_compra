@@ -1,0 +1,35 @@
+.btn_edit i {
+  font-size: 1.5rem;
+  color: var(--color-lilas);
+  z-index: 999;
+}
+
+.btn_sucess i {
+  color: var(--color-verdeClaro);
+}
+
+.tr_sucess {
+  background-color: var(--color-verde);
+  color: var(--color-azulVivo);
+}
+
+.tr_sucess:nth-child(even) {
+  background-color: var(--color-verdeClaro);
+  color: var(--color-azulVivo);
+}
+
+.tr_error_confirm {
+  background-color: var(--color-redClaro);
+  color: var(--color-azulVivo);
+}
+
+.td_sucess_confirm {
+  background-color: transparent;
+  color: inherit;
+}
+
+@media (max-width: 450px) {
+  .btn_edit i {
+    font-size: 1.2rem;
+  }
+}

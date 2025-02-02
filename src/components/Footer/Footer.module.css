@@ -1,0 +1,26 @@
+.footer_container {
+  background-color: var(--azul-escuro);
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer_container p {
+  color: var(--color-branco);
+}
+
+.footer_container p b {
+  color: var(--color-verdeClaro);
+}
+
+@media (max-width: 450px) {
+  .footer_container {
+    padding: 0.5rem 0;
+  }
+  .footer_container p,
+  b {
+    font-size: 0.8rem;
+  }
+}

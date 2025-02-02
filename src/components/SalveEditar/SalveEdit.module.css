@@ -1,0 +1,133 @@
+input[name="price"],
+input[name="quantity"] {
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  color: var(--color-branco);
+  font-size: 1.3rem;
+  padding: 0 2rem;
+  width: 70%;
+}
+
+input[name="name"] {
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  color: var(--color-branco);
+  font-size: 1.3rem;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.obrigatorio::placeholder {
+  color: var(--color-verdeEscuro);
+  background-color: var(--color-redClaro);
+  font-size: 1rem;
+}
+
+.td_salve button {
+  padding: 5px 0.7rem;
+}
+
+.td_salve button i {
+  color: var(--color-verdeClaro);
+}
+
+.td_delete button {
+  padding: 5px;
+  background-color: var(--color-roxoEscuro);
+}
+
+.td_delete button i {
+  padding: 5px;
+  color: var(--color-redClaro);
+}
+
+.tr_error_confirm {
+  background-color: var(--color-redClaro);
+  color: var(--color-azulVivo);
+}
+
+@media (max-width: 819px) {
+  td {
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  input[name="price"],
+  input[name="quantity"] {
+    width: 73%;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  input[name="name"] {
+    width: 100%;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .td_salve button {
+    font-size: 1rem;
+    padding: 5px;
+    color: var(--color-verdeClaro);
+  }
+
+  .td_salve button i {
+    font-size: 1rem;
+    color: var(--color-verdeClaro);
+  }
+
+  .td_delete button {
+    padding: 5px;
+    background-color: var(--color-roxoEscuro);
+  }
+
+  .td_delete button i {
+    padding: 5px;
+    color: var(--color-redClaro);
+  }
+}
+
+@media (max-width: 450px) {
+  td {
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  input[name="price"],
+  input[name="quantity"] {
+    width: 73%;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  input[name="name"] {
+    width: 100%;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .td_salve button {
+    font-size: 1rem;
+    padding: 5px;
+    color: var(--color-verdeClaro);
+  }
+
+  .td_salve button i {
+    font-size: 1rem;
+    color: var(--color-verdeClaro);
+  }
+
+  .td_delete button {
+    padding: 5px;
+    background-color: var(--color-roxoEscuro);
+  }
+
+  .td_delete button i {
+    padding: 5px;
+    color: var(--color-redClaro);
+  }
+}
